@@ -1,4 +1,4 @@
 `yarn && yarn test` 
 
 
-Fake server is `https://my-json-server.typicode.com/` used the 
+Fake server - `https://my-json-server.typicode.com/`
