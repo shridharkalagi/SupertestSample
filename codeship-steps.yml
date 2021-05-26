@@ -1,0 +1,5 @@
+- type: parallel
+  steps:
+  - name: tests
+    service: supertestsampleservice
+    command: /bin/sh -c "yarn test" 

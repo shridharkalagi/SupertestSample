@@ -1,0 +1,7 @@
+supertestsampleservice:
+  build:
+    image: supertestsample
+    # context: .
+    dockerfile: Dockerfile
+    # args:
+    #   build_env: production
