@@ -1,7 +1,7 @@
 supertestsampleservice:
-  build:
-    image: supertestsample
+  build: .
+    # image: codeship/supertestsampleImage
     # context: .
-    dockerfile: Dockerfile
+    # dockerfile: Dockerfile
     # args:
     #   build_env: production
