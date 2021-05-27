@@ -4,8 +4,8 @@
   - name: tests
     service: supertestsampleservice
     command: /bin/sh -c "yarn test" 
-  # - name: push docker
-  #   service: supertestsampleservice
-  #   type: push
-  #   image_name: shridharkalagi/supertestsample
-  #   encrypted_dockercfg_path: dockercfg.encrypted
+  - name: push docker
+    service: supertestsampleservice
+    type: push
+    image_name: shridharkalagi/supertestsample
+    encrypted_dockercfg_path: dockercfg.encrypted
