@@ -1,5 +1,10 @@
 - type: parallel
+  tag: master
   steps:
   - name: tests
     service: supertestsampleservice
     command: /bin/sh -c "yarn test" 
+- service: app
+  type: push
+  image_name: shridharkalagi/supertestsample
+  encrypted_dockercfg_path: dockercfg.encrypted

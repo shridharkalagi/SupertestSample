@@ -1,7 +1,12 @@
 supertestsampleservice:
   build: .
-    # image: codeship/supertestsampleImage
-    # context: .
-    # dockerfile: Dockerfile
+    image: codeship/supertestsampleImage
+    context: .
+    dockerfile: Dockerfile
     # args:
     #   build_env: production
+
+# myservice_generator:
+#   image: codeship/myservice-dockercfg-generator
+#   encrypted_env_file:
+#     - .env.encrypted
