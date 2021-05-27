@@ -7,6 +7,4 @@ supertestsampleservice:
     #   build_env: production
 
 dummyservice:
-  image: dummy
-  volumes:
-    - ./package.json
+  image: alpine
