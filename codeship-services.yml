@@ -6,7 +6,7 @@ supertestsampleservice:
     # args:
     #   build_env: production
 
-# myservice_generator:
-#   image: codeship/myservice-dockercfg-generator
-#   encrypted_env_file:
-#     - .env.encrypted
+dummy_service:
+  # image: codeship/myservice-dockercfg-generator
+  # encrypted_env_file:
+    # - .env.encrypted
