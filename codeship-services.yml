@@ -1,5 +1,5 @@
 supertestsampleservice:
-  build: .
+  build: 
     image: shridharkalagi/supertestsample
     context: .
     dockerfile: Dockerfile
