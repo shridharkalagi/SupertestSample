@@ -1,6 +1,6 @@
 supertestsampleservice:
   build: .
-    image: codeship/supertestsampleImage
+    image: shridharkalagi/supertestsample
     context: .
     dockerfile: Dockerfile
     # args:
