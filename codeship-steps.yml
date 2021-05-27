@@ -5,7 +5,7 @@
     service: supertestsampleservice
     command: /bin/sh -c "yarn test" 
   - name: push docker
-    dummyservice: supertestsampleservice
+    service: dummyservice
     type: push
     image_tag: "{{ .CommitID }}"
     image_name: shridharkalagi/supertestsample
