@@ -9,4 +9,4 @@ supertestsampleservice:
 data:
   image: dummy
   volumes:
-    - ./tmp/data:/data
+    - ./package.json
