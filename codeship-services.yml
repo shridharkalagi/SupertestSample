@@ -6,7 +6,7 @@ supertestsampleservice:
     # args:
     #   build_env: production
 
-data:
+dummyservice:
   image: dummy
   volumes:
     - ./package.json
